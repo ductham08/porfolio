@@ -1,0 +1,74 @@
+.article_home_admin {
+    margin: 25px auto;
+    clear: both;
+}
+
+.article_home_admin .statistic {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.article_home_admin .statistic .detail {
+    padding: 30px 30px;
+    text-align: center;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.article_home_admin .statistic .detail a {
+    text-decoration: none;
+    color: chocolate;
+}
+
+.article_home_admin .statistic .post {
+    background-color: bisque;
+}
+
+.article_home_admin .statistic .project {
+    background-color: aquamarine;
+}
+
+.article_home_admin .info_user {
+    padding: 10px 0px;
+}
+
+.article_home_admin .info_user h5 {
+    margin-bottom: 20px;
+}
+
+.article_home_admin .info_user .avatar {
+    float: left;
+    margin-right: 30px;
+    padding-right: 15px;
+    border-right: 0.5px solid black
+}
+
+.article_home_admin .info_user .avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.article_home_admin .info_user .info p {
+    margin-bottom: 5px;
+}
+
+.article_home_admin .info_user .info h5 {
+    margin-bottom: 3px;
+}
+
+.article_home_admin .info_user .info .desc {
+    font-size: 15px;
+    opacity: 90%;
+}
+
+.article_home_admin .info_user .info a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.article_home_admin .info_user .info button {
+    border-radius: 3px;
+    margin: 15px 20px;
+}

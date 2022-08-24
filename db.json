@@ -1,0 +1,118 @@
+{
+    "user": [{
+        "name": "Nguyen Duc Tham  ",
+        "position": "Technical interns",
+        "desc": "With good logical thinking and eagerness to learn, always cultivate more knowledge to improve yourself and work hard. I look forward to working at the company as a front-end intern. I will complete the assigned tasks well, along with that, I will always learn and hone more soft skills and professional skills to be able to improve myself and strive to become a full-time employee at the company. company after three months of internship.",
+        "cv": "",
+        "age": "20",
+        "id": 1,
+        "image": "http://res.cloudinary.com/ductham087/image/upload/v1655375890/photoshop_ktgj0u.jpg"
+    }],
+    "contact": [{
+        "email": "Ductham784@gmail.com",
+        "phone": "0967 550 071",
+        "address": "18/17 Phu Kieu - Phu Diem - Bac Tu liem - Ha Noi"
+    }],
+    "posts": [{
+            "id": 1,
+            "title": "How to use Bootstrap library",
+            "content": "If you want to quickly create a website without writing tons of CSS from scratch, then Bootstrap 4 might be the framework you’re looking for. In this course, you’ll see how Bootstrap makes it easy to layout and create interactive and responsive sites.",
+            "category_PostId": 1,
+            "createat": "2022-06-02"
+        },
+        {
+            "id": 2,
+            "title": "How to use Php",
+            "content": "If you want to quickly create a website without writing tons of CSS from scratch, then Bootstrap 4 might be the framework you’re looking for. In this course, you’ll see how Bootstrap makes it easy to layout and create interactive and responsive sites.",
+            "category_PostId": 3,
+            "createat": "2022-06-01"
+        },
+        {
+            "id": 3,
+            "title": "How to use Figma",
+            "content": "If you want to quickly create a website without writing tons of CSS from scratch, then Bootstrap 4 might be the framework you’re looking for. In this course, you’ll see how Bootstrap makes it easy to layout and create interactive and responsive sites.",
+            "category_PostId": 2,
+            "createat": "2022-06-01"
+        },
+        {
+            "title": "Test",
+            "category_PostId": 2,
+            "createat": "2022-06-12",
+            "content": "test lan thu nhat",
+            "id": 4
+        }
+    ],
+    "category_Posts": [{
+            "id": 1,
+            "name": "Php"
+        },
+        {
+            "id": 2,
+            "name": "Figma"
+        },
+        {
+            "id": 3,
+            "name": "Html 5 & Css 3"
+        },
+        {
+            "name": "html",
+            "id": 4
+        }
+    ],
+    "projects": [{
+            "id": 1,
+            "name": "Photoshop by CC 2020",
+            "thumbnail": "http://res.cloudinary.com/ductham087/image/upload/v1655106796/photoshop_wimq2w.jpg",
+            "createat": "2020-06-01",
+            "category_ProjectId": 1,
+            "content": "Its developers define it as a “scripting or programming language that allows you to implement complex things on web pages.” JavaScript makes web pages more dynamic and user-friendly so that they respond to visitors' actions. Or, to put it another way, JavaScript makes web pages interactive"
+        },
+        {
+            "id": 2,
+            "name": "Photoshop by figma",
+            "thumbnail": "http://res.cloudinary.com/ductham087/image/upload/v1654798473/html_uiv3lz.png",
+            "createat": "2020-06-01",
+            "category_ProjectId": 2,
+            "content": "Its developers define it as a “scripting or programming language that allows you to implement complex things on web pages.” JavaScript makes web pages more dynamic and user-friendly so that they respond to visitors' actions. Or, to put it another way, JavaScript makes web pages interactive"
+        },
+        {
+            "id": 3,
+            "name": "Photoshop by illustrator 2020 ",
+            "thumbnail": "http://res.cloudinary.com/ductham087/image/upload/v1654798503/javascript_oou8z8.jpg",
+            "createat": "2020-06-01",
+            "category_ProjectId": 3,
+            "content": "Its developers define it as a “scripting or programming language that allows you to implement complex things on web pages.” JavaScript makes web pages more dynamic and user-friendly so that they respond to visitors' actions. Or, to put it another way, JavaScript makes web pages interactive"
+        },
+        {
+            "id": 4,
+            "name": "Photoshop by illustrator 2020 ",
+            "thumbnail": "http://res.cloudinary.com/ductham087/image/upload/v1654798529/figma_yfb2no.jpg",
+            "createat": "2020-06-01",
+            "category_ProjectId": 1,
+            "content": "Its developers define it as a “scripting or programming language that allows you to implement complex things on web pages.” JavaScript makes web pages more dynamic and user-friendly so that they respond to visitors' actions. Or, to put it another way, JavaScript makes web pages interactive"
+        }
+    ],
+    "category_Projects": [{
+            "id": 1,
+            "name": "Figma "
+        },
+        {
+            "id": 2,
+            "name": "Php"
+        },
+        {
+            "id": 3,
+            "name": "Javascript"
+        }
+    ],
+    "users": [{
+        "email": "ductham784@gmail.com",
+        "password": "$2a$10$4fA7drzEQ2UjRJXFYleLIOs78kiDwqwnZN0TR44D.eW8ayYzI3/Bi",
+        "name": "Nguyễn Đức Thắm",
+        "position": "Intern",
+        "desc": "Web design",
+        "image": "",
+        "userId": 1,
+        "id": 1
+    }]
+}

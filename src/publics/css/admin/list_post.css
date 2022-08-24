@@ -1,0 +1,39 @@
+.ctn_list_post .ctn_article table {
+    width: 100%;
+}
+
+.ctn_list_post .cnt_article tr,
+th,
+td {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+
+button {
+    padding: 3px 15px;
+    border: 1px solid #af6e40;
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px #af6e40;
+    margin: 0px;
+}
+
+.ctn_list_post .ctn_article .content {
+    text-align: left;
+}
+
+.ctn_list_post .ctn_article a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    .ctn_list_post .cnt_article th,
+    td,
+    tr {
+        font-size: 13px;
+    }
+}

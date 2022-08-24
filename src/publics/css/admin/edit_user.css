@@ -1,0 +1,39 @@
+.ctn_edit_user .ctn_article form input {
+    border: 0px;
+    border-bottom: 1px solid black;
+    width: 80%;
+    outline: 0px;
+}
+
+.ctn_edit_user .ctn_article p {
+    margin: 15px 0px 15px 0px;
+}
+
+.ctn_edit_user .ctn_article button {
+    padding: 3px 15px;
+    border: 1px solid #af6e40;
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px #af6e40;
+    margin: 15px 0px;
+}
+
+.ctn_article .avatar {
+    width: 100px;
+    border-radius: 100px;
+}
+
+.ctn_edit_user .ctn_article form .img_file {
+    border: 0px;
+}
+
+
+/* Mobile */
+
+@media (max-width:768px) {
+    .ctn_edit_user .ctn_article form input {
+        border: 0px;
+        border-bottom: 1px solid black;
+        width: 100%;
+        outline: 0px;
+    }
+}

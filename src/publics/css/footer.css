@@ -1,0 +1,17 @@
+.footer {
+    clear: both;
+    text-align: center;
+}
+
+.footer .link_footer {
+    color: black;
+    margin: 5px 10px;
+}
+
+.footer .link_footer i {
+    font-size: 22px;
+}
+
+.footer p {
+    margin-top: 10px;
+}

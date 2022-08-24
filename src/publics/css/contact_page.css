@@ -1,0 +1,72 @@
+hr {
+    clear: both;
+}
+
+.ctn_contact .article {
+    clear: both;
+    padding: 25px 0px;
+}
+
+.ctn_contact .article .form_contact {
+    float: left;
+}
+
+.ctn_contact .article .form_contact input,
+textarea {
+    width: 100%;
+    padding: 0px 5px;
+    margin: 15px 0px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    outline: 0;
+}
+
+.ctn_contact .article .form_contact .btn_send_contact {
+    clear: both;
+    color: black;
+    text-decoration: none;
+    padding: 3px 25px;
+    border: 1px solid #af6e40;
+    border-radius: 13px;
+    box-shadow: 1px 2px 3px #af6e40;
+    margin-bottom: 20px;
+}
+
+.ctn_contact .article .info_contact {
+    float: right;
+}
+
+.ctn_contact .article .info_contact .link_contact {
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    margin-right: 15px;
+}
+
+.ctn_contact .article .info_contact .fa-brands {
+    font-size: 15px;
+    text-align: center;
+    width: 21px;
+}
+
+
+/* Mobile */
+
+@media (max-width:768px) {
+    .ctn_contact .article h5 {
+        text-align: center;
+        margin: 5px 0px;
+    }
+    .ctn_contact .article .form_contact p {
+        text-align: center;
+    }
+    .ctn_contact .article .info_contact {
+        margin-top: 10px;
+        text-align: center;
+        float: none;
+    }
+    .ctn_contact .article .info_contact .link_contact {
+        margin: 0px 10px;
+    }
+}

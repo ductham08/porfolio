@@ -1,0 +1,51 @@
+.banner {
+    padding-top: 50px;
+    clear: both;
+    display: block;
+}
+
+.banner .text_pro {
+    float: left;
+}
+
+.banner .img_pro {
+    float: right;
+}
+
+.banner p {
+    margin-bottom: 30px;
+}
+
+.banner .text_pro a {
+    clear: both;
+    margin-top: 25px;
+    color: rgb(255, 254, 254);
+    background-color: #fc5454;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+
+.banner .text_pro a:hover {
+    box-shadow: 2px 3px 3px #af6e40;
+}
+
+.banner .img_pro img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    display: block;
+    float: right;
+    border-radius: 100px;
+    box-shadow: 3px 4px 8px #af6e40;
+}
+
+
+/* Mobile */
+
+@media (max-width:768px) {
+    .banner .img_pro img {
+        margin: 20px auto;
+        float: none;
+    }
+}
