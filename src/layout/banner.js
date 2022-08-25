@@ -15,7 +15,7 @@ const banner = {
                             <h4>Hi, i am ${item_user.name}</h4>
                             <h5>${item_user.position}</h5>
                             <p>${item_user.desc}</p>
-                            <a href="#">Dowload Resume</a>
+                            <a href="/contact">Contact</a>
                         </div>
                         `
                     })}
