@@ -5,7 +5,7 @@ import dayjs from "dayjs"
 
 const project_page = {
         async render() {
-            const data_projects = await (await fetch("http://localhost:3001/projects?_expand=category_Project")).json()
+            const data_projects = await (await fetch("https://porfolio-theta-nine.vercel.app/projects?_expand=category_Project")).json()
             return /*html*/ `
         <div class = "ctn_projects">
             <div class="header">

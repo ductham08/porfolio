@@ -7,8 +7,8 @@ import { re_load } from "../../ultil/re_load"
 
 const edit_project_page = {
         async render(id) {
-            const data_project = await (await fetch(`http://localhost:3001/projects/${id}?_expand=category_Project`)).json()
-            const data_category_pro = await (await fetch("http://localhost:3001/category_Projects")).json()
+            const data_project = await (await fetch(`https://porfolio-theta-nine.vercel.app/projects/${id}?_expand=category_Project`)).json()
+            const data_category_pro = await (await fetch("https://porfolio-theta-nine.vercel.app/category_Projects")).json()
             console.log(data_project)
 
             return /*html*/ `
@@ -83,7 +83,7 @@ const edit_project_page = {
                 thumbnail: await url()
             }
             console.log(new_data_project)
-            const data = await fetch(`http://localhost:3001/projects/${id}`, {
+            const data = await fetch(`https://porfolio-theta-nine.vercel.app/projects/${id}`, {
                 method: "PATCH",
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(new_data_project)

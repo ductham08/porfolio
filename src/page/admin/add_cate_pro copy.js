@@ -25,7 +25,7 @@ const add_cate_pro_page = {
         const form = document.getElementById("edit_post_form")
         const name = document.getElementById("name")
 
-        const data_cate_pro = await (await fetch("http://localhost:3001/category_Projects")).json()
+        const data_cate_pro = await (await fetch("https://porfolio-theta-nine.vercel.app/category_Projects")).json()
 
         form.addEventListener("submit", async(e) => {
             e.preventDefault()
@@ -40,7 +40,7 @@ const add_cate_pro_page = {
             }
 
             if (!name_find) {
-                const data = await fetch(`http://localhost:3001/category_Projects`, {
+                const data = await fetch(`https://porfolio-theta-nine.vercel.app/category_Projects`, {
                     method: "POST",
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(new_data_cate_pro)

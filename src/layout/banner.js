@@ -3,7 +3,7 @@ import avatar from "../publics/images/avatar.jpg"
 
 const banner = {
         async render() {
-            const data_user = await (await fetch("http://localhost:3001/user")).json()
+            const data_user = await (await fetch("https://porfolio-theta-nine.vercel.app/user")).json()
             return /*html*/ `
             <div class="banner container">
                 ${data_user.map((item_user) => {

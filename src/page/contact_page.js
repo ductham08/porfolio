@@ -5,7 +5,7 @@ import "../publics/css/contact_page.css"
 
 const contact_page = {
         async render() {
-            const data_contact = await (await fetch("http://localhost:3001/contact")).json()
+            const data_contact = await (await fetch("https://porfolio-theta-nine.vercel.app/contact")).json()
             return /*html*/ `
             <div class="ctn_contact">
                 <div class="header">

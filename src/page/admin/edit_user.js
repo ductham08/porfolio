@@ -4,7 +4,7 @@ import { uploadFile } from "../../../upload_img"
 
 const edit_user = {
         async render() {
-            const data_user = await (await fetch("http://localhost:3001/user")).json()
+            const data_user = await (await fetch("https://porfolio-theta-nine.vercel.app/user")).json()
             return /*html*/ `
         <div class=" ctn_edit_user">
            <div class="container ctn_article col-md-10 col-12">
@@ -79,7 +79,7 @@ const edit_user = {
                     image: await url()
                 }
                 console.log(new_data_user)
-                const data = await fetch("http://localhost:3001/user/1", {
+                const data = await fetch("https://porfolio-theta-nine.vercel.app/user/1", {
                     method:"PATCH",
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify(new_data_user)

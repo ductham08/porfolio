@@ -4,7 +4,7 @@ import header_admin from "./header_admin"
 
 const add_project_page = {
         async render() {
-            const data_category_pro = await (await fetch("http://localhost:3001/category_Projects")).json()
+            const data_category_pro = await (await fetch("https://porfolio-theta-nine.vercel.app/category_Projects")).json()
             console.log(data_category_pro)
             return /*html*/ `
         <div class="ctn_edit_user">
@@ -65,7 +65,7 @@ const add_project_page = {
                 thumbnail: await url()
             }
             console.log(new_data_project)
-            const data = await fetch(`http://localhost:3001/projects`, {
+            const data = await fetch(`https://porfolio-theta-nine.vercel.app/projects`, {
                 method: "POST",
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(new_data_project)

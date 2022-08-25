@@ -4,8 +4,8 @@ import header_admin from "./header_admin"
 
 const edit_post = {
         async render(id) {
-            const data_post = await (await fetch(`http://localhost:3001/posts/${id}`)).json()
-            const data_category_post = await (await fetch("http://localhost:3001/category_Posts")).json()
+            const data_post = await (await fetch(`https://porfolio-theta-nine.vercel.app/posts/${id}`)).json()
+            const data_category_post = await (await fetch("https://porfolio-theta-nine.vercel.app/category_Posts")).json()
             console.log(data_post)
             return /*html*/ `
         <div class="ctn_edit_user">
@@ -65,7 +65,7 @@ const edit_post = {
                 content: content.value,
             }
             console.log(new_data_user)
-            const data = await fetch(`http://localhost:3001/posts/${id}`, {
+            const data = await fetch(`https://porfolio-theta-nine.vercel.app/posts/${id}`, {
                 method: "PATCH",
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(new_data_user)

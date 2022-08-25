@@ -5,7 +5,7 @@ import { Ls } from "dayjs"
 
 const list_post_page = {
         async render() {
-            const data = await (await fetch("http://localhost:3001/posts?_expand=category_Post")).json()
+            const data = await (await fetch("https://porfolio-theta-nine.vercel.app/posts?_expand=category_Post")).json()
             return /*html*/ `
         <div class="ctn_list_post">
             <div>
@@ -50,7 +50,7 @@ const list_post_page = {
                 // Call api
                 const confirm = window.confirm(`Ban co muon xoa bai post so ${id_btn}`)
                 if(confirm){
-                    const data = await fetch(`http://localhost:3001/posts/${id_btn}`,{
+                    const data = await fetch(`https://porfolio-theta-nine.vercel.app/posts/${id_btn}`,{
                         method:"DELETE"
                     })
                     if(data){

@@ -4,7 +4,7 @@ import header_admin from "./header_admin"
 
 const list_project_page = {
         async render() {
-            const data = await (await fetch("http://localhost:3001/projects?_expand=category_Project")).json()
+            const data = await (await fetch("https://porfolio-theta-nine.vercel.app/projects?_expand=category_Project")).json()
             return /*html*/ `
         <div class="ctn_list_post">
             <div>
@@ -49,7 +49,7 @@ const list_project_page = {
                 // Call api
                 const confirm = window.confirm(`Ban co muon xoa project so ${id_btn}`)
                 if(confirm){
-                    const data = await fetch(`http://localhost:3001/projects/${id_btn}`,{
+                    const data = await fetch(`https://porfolio-theta-nine.vercel.app/projects/${id_btn}`,{
                         method:"DELETE"
                     })
                     if(data){

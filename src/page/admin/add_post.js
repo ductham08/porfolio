@@ -3,7 +3,7 @@ import header_admin from "./header_admin"
 
 const add_post_page = {
         async render() {
-            const data_category_post = await (await fetch("http://localhost:3001/category_Posts")).json()
+            const data_category_post = await (await fetch("https://porfolio-theta-nine.vercel.app/category_Posts")).json()
             return /*html*/ `
         <div class="ctn_edit_user">
             <div>
@@ -50,7 +50,7 @@ const add_post_page = {
                 content: content.value,
             }
             console.log(new_data_user)
-            const data = await fetch(`http://localhost:3001/posts`, {
+            const data = await fetch(`https://porfolio-theta-nine.vercel.app/posts`, {
                 method: "POST",
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(new_data_user)

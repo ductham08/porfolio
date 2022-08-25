@@ -4,11 +4,11 @@ import "../../publics/css/admin/home.css"
 const home_admin = {
         async render() {
 
-            const data_post = await (await fetch("http://localhost:3001/posts")).json()
-            const data_project = await (await fetch("http://localhost:3001/projects")).json()
-            const data_cate_post = await (await fetch("http://localhost:3001/category_Posts")).json()
-            const data_cate_pro = await (await fetch("http://localhost:3001/category_Projects")).json()
-            const data_user = await (await fetch("http://localhost:3001/user")).json()
+            const data_post = await (await fetch("https://porfolio-theta-nine.vercel.app/posts")).json()
+            const data_project = await (await fetch("https://porfolio-theta-nine.vercel.app/projects")).json()
+            const data_cate_post = await (await fetch("https://porfolio-theta-nine.vercel.app/category_Posts")).json()
+            const data_cate_pro = await (await fetch("https://porfolio-theta-nine.vercel.app/category_Projects")).json()
+            const data_user = await (await fetch("https://porfolio-theta-nine.vercel.app/user")).json()
 
             const length_arr_post = data_post.length
             const length_arr_project = data_project.length

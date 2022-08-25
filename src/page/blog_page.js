@@ -5,7 +5,7 @@ import dayjs from "dayjs"
 
 const blog_page = {
         async render() {
-            const data_blog = await (await fetch("http://localhost:3001/posts?_expand=category_Post")).json()
+            const data_blog = await (await fetch("https://porfolio-theta-nine.vercel.app/posts?_expand=category_Post")).json()
 
             return /*html*/ `
         <div class="ctn_blog">

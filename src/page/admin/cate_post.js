@@ -4,7 +4,7 @@ import { re_load } from "../../ultil/re_load"
 
 const cate_post_page = {
         async render() {
-            const data = await (await fetch("http://localhost:3001/category_Posts")).json()
+            const data = await (await fetch("https://porfolio-theta-nine.vercel.app/category_Posts")).json()
             return /*html*/ `
         <div class="ctn_list_post">
             <div>
@@ -43,7 +43,7 @@ const cate_post_page = {
                 // Call api
                 const confirm = window.confirm(`Ban co muon xoa danh muc so ${id_btn}`)
                 if(confirm){
-                    const data = await fetch(`http://localhost:3001/category_Posts/${id_btn}`,{
+                    const data = await fetch(`https://porfolio-theta-nine.vercel.app/category_Posts/${id_btn}`,{
                         method:"DELETE"
                     })
                     if(data){

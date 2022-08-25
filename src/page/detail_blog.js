@@ -6,7 +6,7 @@ import dayjs from "dayjs"
 
 const detail_blog = {
     async render(id) {
-        const data_blog_detail = await (await fetch(`http://localhost:3001/posts/${id}?_expand=category_Post`)).json()
+        const data_blog_detail = await (await fetch(`https://porfolio-theta-nine.vercel.app/posts/${id}?_expand=category_Post`)).json()
         return /*html*/ `
         <div class= "ctn_detail_blog">
             <div class="header">

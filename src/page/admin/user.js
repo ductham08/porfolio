@@ -4,8 +4,8 @@ import "../../publics/css/admin/list_post.css"
 
 const user_page = {
         async render() {
-            const data_admin = await (await fetch("http://localhost:3001/users?userId=1")).json()
-            const data_user = await (await fetch("http://localhost:3001/users?userId=0")).json()
+            const data_admin = await (await fetch("https://porfolio-theta-nine.vercel.app/users?userId=1")).json()
+            const data_user = await (await fetch("https://porfolio-theta-nine.vercel.app/users?userId=0")).json()
                 // console.log(data_user)
             return /*html*/ `
             <div class= "user_page">

@@ -4,7 +4,7 @@ import dayjs from "dayjs"
 
 const detail_cate_pro = {
         async render(id) {
-            const data = await (await fetch(`http://localhost:3001/category_Projects/${id}?_embed=projects`)).json()
+            const data = await (await fetch(`https://porfolio-theta-nine.vercel.app/category_Projects/${id}?_embed=projects`)).json()
             const data_post = data.projects
             console.log(data_post)
             return /*html*/ `
